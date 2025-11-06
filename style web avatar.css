@@ -1,0 +1,90 @@
+*{
+    font-family:sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+body{
+    background-image: linear-gradient(to right, #01022d,#000);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 640px;
+    background-image: 
+    linear-gradient(to right ,#01022de5 30%,#00000088),
+    url(avatar-img/avatar.webp)
+    ;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right ,#01022de5 30%,transparent),
+    url(avatar-img/avatar.webp)
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+}
+.logo{
+    text-transform:uppercase;
+    font-size: 30px;
+}
+ul{
+    width: 60%;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;  
+}
+li a:hover{
+    border-bottom: 2px solid transparent;
+}
+li a:hover{
+    border-bottom-color:white;
+}
+.content{
+    color:white;
+    width: 50%;
+    height: 80%;
+    margin-top: 50px;
+    padding: 30px;
+    /* background-color: red; */
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.content p{
+    width: 350px;
+    color: white;
+    padding: 20px 0;
+}
+.content button{
+    font-size: large;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    cursor:pointer;
+}
+
+
+
